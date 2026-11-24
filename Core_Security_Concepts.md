@@ -1,24 +1,4 @@
-# Week 2: Core Security Concepts
-
-> Cryptography, attacks, web security and frameworks, with interview Q&A
-
-[Home](README.md) | [Week 1](Week1_Fundamentals.md) | [Week 2](Week2_Core_Security_Concepts.md) | [Week 3](Week3_Role_Specific_Depth.md) | [Week 4](Week4_Mock_Interviews_and_Polish.md)
-
----
-
-## How to use this document
-
-Week 2 covers the core security knowledge that appears in almost every interview: cryptography, common attacks, web application security and the major frameworks. Aim for understanding, not memorisation. For each attack, be able to explain how it works, how it is detected and how it is prevented.
-
-| Day | Focus | Hands-on task |
-| --- | --- | --- |
-| Day 1 | Cryptography: symmetric, asymmetric, hashing, PKI | Use openssl to hash a file, generate an RSA key pair and inspect a certificate |
-| Day 2 | Malware, phishing, social engineering, network attacks | Analyse a phishing email header; TryHackMe "Phishing" rooms |
-| Day 3 | OWASP Top 10: injection, XSS, access control | PortSwigger labs: SQL injection and XSS (3 labs each) |
-| Day 4 | OWASP continued: CSRF, SSRF, auth flaws | PortSwigger labs: CSRF and access control |
-| Day 5 | Frameworks: MITRE ATT&CK, Kill Chain, NIST, ISO 27001 | Map one real breach to ATT&CK techniques |
-| Day 6 | Revision and Q&A out loud | Answer Q1 to Q25 aloud |
-| Day 7 | Rest or catch-up | Revisit weak topics |
+# Core Security Concepts
 
 ## 1. Cryptography essentials
 
@@ -124,7 +104,7 @@ SSRF:            http://169.254.169.254/latest/meta-data/
 - **OWASP** – application security resources (Top 10, ASVS, Testing Guide)
 - **Diamond Model and Pyramid of Pain** – intelligence analysis concepts; Pyramid of Pain ranks indicators from hashes (easy for attackers to change) to TTPs (hard to change)
 
-## 5. Week 2 interview questions and model answers
+## 5. interview questions and model answers
 
 ### Cryptography
 
@@ -246,12 +226,3 @@ Prevention: context-aware output encoding, input validation, Content Security Po
 
 **Answer:** It ranks indicators by how much pain it causes an attacker when you block them: hash values (trivial), IP addresses, domain names, network and host artifacts, tools, and TTPs (hardest). Defenders should aim for detections at the top, since attackers cannot easily change behaviour.
 
-## 6. Week 2 self-check
-
-- [ ] I can explain how TLS combines asymmetric and symmetric cryptography
-- [ ] I know how passwords should be stored and why
-- [ ] I can describe 10 attack types with detection and prevention for each
-- [ ] I can explain SQLi, XSS, CSRF, SSRF and IDOR with an example and a fix
-- [ ] I can name the main ATT&CK tactics in order and map two attacks to techniques
-- [ ] I can explain the difference between NIST CSF and ISO 27001
-- [ ] I completed at least six PortSwigger labs
