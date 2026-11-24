@@ -1,24 +1,5 @@
-# Week 3: Role-Specific Depth and Hands-On Practice
+# Role-Specific Depth and Hands-On Practice
 
-> SOC, red team, cloud and GRC tracks, with interview Q&A
-
-[Home](README.md) | [Week 1](Week1_Fundamentals.md) | [Week 2](Week2_Core_Security_Concepts.md) | [Week 3](Week3_Role_Specific_Depth.md) | [Week 4](Week4_Mock_Interviews_and_Polish.md)
-
----
-
-## How to use this document
-
-Week 3 is role-specific. Focus on the track that matches the job you are applying for. If you are undecided, cover the SOC track fully (most entry-level roles) and skim the others. Hands-on practice matters most this week: interviewers can tell quickly who has actually used the tools.
-
-| Day | Track | Hands-on task |
-| --- | --- | --- |
-| Day 1 | SOC / Blue team: incident response and SIEM | Install Splunk Free or Wazuh in a lab; ingest Windows and Linux logs |
-| Day 2 | SOC: alert triage, EDR, phishing analysis | LetsDefend or TryHackMe SOC Level 1 alert investigations |
-| Day 3 | Red team / pentest: methodology and tools | Nmap and Gobuster scans against a TryHackMe or HTB machine |
-| Day 4 | Pentest: privilege escalation and reporting | Complete one easy box and write a short report |
-| Day 5 | Cloud security | Review AWS IAM policies; build a free-tier lab and enable CloudTrail |
-| Day 6 | GRC: risk, policy, compliance | Create a simple risk register for a fictional company |
-| Day 7 | Revision and Q&A out loud | Answer all questions for your target track |
 
 ## Track A: SOC analyst / Blue team
 
@@ -272,11 +253,3 @@ I validate each finding with a safe proof of concept, record evidence and impact
 
 **Answer:** The EU General Data Protection Regulation governs processing of personal data of people in the EU. Key principles include lawfulness, fairness and transparency; purpose limitation; data minimisation; accuracy; storage limitation; integrity and confidentiality; and accountability. Notable obligations include breach notification to the regulator within 72 hours and respecting data subject rights (access, erasure, portability).
 
-## Week 3 self-check
-
-- [ ] I can describe the IR lifecycle and apply it to two realistic scenarios
-- [ ] I have run at least one SIEM search of my own and can explain it
-- [ ] I can explain what EDR, SOAR, IOC and IOA mean
-- [ ] I have completed at least one lab machine end to end (for pentest roles)
-- [ ] I can explain the shared responsibility model and five common cloud misconfigurations
-- [ ] I can explain risk treatment options and the difference between RTO and RPO (for GRC roles)
