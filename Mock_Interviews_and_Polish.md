@@ -1,24 +1,6 @@
-# Week 4: Mock Interviews and Polish
+#  Mock Interviews and Polish
 
-> Behavioral, scenario and rapid-fire questions, plus final checklist
 
-[Home](README.md) | [Week 1](Week1_Fundamentals.md) | [Week 2](Week2_Core_Security_Concepts.md) | [Week 3](Week3_Role_Specific_Depth.md) | [Week 4](Week4_Mock_Interviews_and_Polish.md)
-
----
-
-## How to use this document
-
-Week 4 turns your knowledge into interview performance. The goal is to speak clearly, structure answers and handle scenarios calmly. Do at least three timed mock interviews (with a friend, a recording of yourself, or Claude) and rehearse your resume stories until they feel natural.
-
-| Day | Focus | Task |
-| --- | --- | --- |
-| Day 1 | Resume and project stories | Prepare 3 STAR stories and a 60-second "tell me about yourself" |
-| Day 2 | Behavioral questions | Practise Section 2 questions aloud with a timer |
-| Day 3 | Scenario and troubleshooting questions | Work through Section 3 scenarios using a fixed structure |
-| Day 4 | Rapid-fire technical revision | Answer Section 4 in under 30 seconds each |
-| Day 5 | Full mock interview 1 | Mix technical, scenario and behavioral for 45 to 60 minutes |
-| Day 6 | Full mock interview 2 and weak spots | Review recordings; fix filler words and gaps |
-| Day 7 | Logistics and rest | Use the final checklist in Section 7 |
 
 ## 1. Resume and introduction
 
@@ -206,11 +188,3 @@ After each mock, score yourself on: accuracy, structure, clarity, confidence, an
 - [ ] Forgetting containment and communication in incident answers
 - [ ] Rambling for more than two to three minutes on one answer
 
-## 8. Week 4 self-check
-
-- [ ] I have a polished 60 to 90 second introduction
-- [ ] I have three STAR stories ready and timed
-- [ ] I can handle a scenario question using a consistent structure
-- [ ] I completed at least two full mock interviews
-- [ ] I have five questions prepared for the interviewer
-- [ ] I have reviewed all four weeks of notes at least once
