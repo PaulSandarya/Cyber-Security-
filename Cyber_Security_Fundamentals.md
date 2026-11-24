@@ -1,24 +1,4 @@
-# Week 1: Fundamentals
-
-> Networking, Linux, Windows/AD and security basics, with interview Q&A
-
-[Home](README.md) | [Week 1](Week1_Fundamentals.md) | [Week 2](Week2_Core_Security_Concepts.md) | [Week 3](Week3_Role_Specific_Depth.md) | [Week 4](Week4_Mock_Interviews_and_Polish.md)
-
----
-
-## How to use this document
-
-This week builds the foundation that every cybersecurity interviewer tests first. Spend about 1.5 to 2 hours a day: read the material, run the commands yourself in a lab, then answer the questions out loud before reading the model answers.
-
-| Day | Focus | Hands-on task |
-| --- | --- | --- |
-| Day 1 | Networking models, IP addressing, subnetting | Practise 10 subnetting problems; TryHackMe "Pre-Security" networking rooms |
-| Day 2 | DNS, DHCP, HTTP/HTTPS, TLS, common ports | Capture a browser session in Wireshark and find DNS, TCP handshake and TLS hello |
-| Day 3 | Linux fundamentals and permissions | OverTheWire Bandit levels 0 to 10 |
-| Day 4 | Windows, Active Directory, event logs | Browse Event Viewer; filter Security log for 4624 and 4625 |
-| Day 5 | Security principles and terminology | Write one-line definitions of every term in Section 4 from memory |
-| Day 6 | Revision and Q&A out loud | Record yourself answering Q1 to Q20 |
-| Day 7 | Rest or catch-up | Review weak areas |
+#  Fundamentals
 
 ## 1. Networking fundamentals
 
@@ -152,7 +132,7 @@ Permissions are shown as rwx for owner, group and others. Numeric values: r=4, w
 - **Separation of duties** – no single person controls a whole critical process
 - **Non-repudiation** – a party cannot deny an action (for example, digital signatures)
 
-## 5. Week 1 interview questions and model answers
+## 5. interview questions and model answers
 
 ### Networking
 
@@ -261,12 +241,4 @@ It does not protect against vulnerabilities in the application itself (SQL injec
 
 **Answer:** MFA requires two or more factor types: something you know, have or are. Weaknesses: MFA fatigue (push bombing), SIM swapping against SMS codes, real-time phishing proxies (such as Evilginx) that steal session cookies, and weak recovery flows. Phishing-resistant options include FIDO2 security keys and passkeys.
 
-## 6. Week 1 self-check
 
-- [ ] I can draw the OSI model and place five protocols and three security devices on it
-- [ ] I can explain the TCP handshake and the TLS handshake without notes
-- [ ] I can recite 15 common ports and what they are used for
-- [ ] I can do basic subnetting (hosts per subnet, network and broadcast address)
-- [ ] I can use 10 Linux commands to investigate a host
-- [ ] I know at least eight Windows event IDs and what they mean
-- [ ] I can define every term in Section 4 in one sentence
